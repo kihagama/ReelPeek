@@ -4,7 +4,7 @@ import logo from '../assets/logo.jpg'
 import SearchBar from '../components/SearchBar';
 import MovieCard from '../components/MovieCard';
 
-const API_KEY = 59b90dcfbe2b42c006038505dae4ec5b;
+const API_KEY = import.meta.env.VITE_key;
 
 console.log(API_KEY);
 
