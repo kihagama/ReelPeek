@@ -69,7 +69,7 @@ const Home = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}> <img style={styles.image} src={logo} alt="" /> ReelPeek</h1>
+      <h1 style={styles.title}> <img style={styles.image} src={logo} alt="" /> ReelPeeks movies</h1>
       <SearchBar onSearch={handleSearch} isLoading={isLoading} />
       {isLoading ? (
         <div style={styles.loading}>Loading movies...</div>
